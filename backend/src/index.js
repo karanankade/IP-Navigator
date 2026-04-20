@@ -18,6 +18,11 @@ app.use(express.json());
 // Enable CORS
 app.use(cors());
 
+// Base Route
+app.get('/', (req, res) => {
+  res.send('IP Navigator API is running properly!');
+});
+
 // Mount routers
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/users', require('./routes/users'));
