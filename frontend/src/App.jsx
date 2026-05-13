@@ -10,6 +10,7 @@ import SavedReports from './pages/SavedReports';
 import SearchHistory from './pages/SearchHistory';
 import Profile from './pages/Profile';
 
+
 function App() {
   return (
     <AuthProvider>
@@ -26,6 +27,7 @@ function App() {
               <Route path="/reports" element={<SavedReports />} />
               <Route path="/history" element={<SearchHistory />} />
               <Route path="/profile" element={<Profile />} />
+
             </Routes>
           </main>
         </div>

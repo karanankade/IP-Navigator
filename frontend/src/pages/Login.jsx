@@ -50,7 +50,6 @@ const Login = () => {
           <label className="flex items-center gap-2">
             <input type="checkbox" className="rounded border-slate-300 dark:border-dark-border" /> Remember me
           </label>
-          <Link to="/forgot-password" className="text-primary-600 hover:underline">Forgot password?</Link>
         </div>
         <button type="submit" className="btn-primary w-full py-3 mt-4">Log In</button>
       </form>
